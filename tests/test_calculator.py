@@ -1,5 +1,5 @@
 
-from app.calculator import soma
+from ..app.calculator import soma
 
 def test_soma():
     assert soma(2, 3) == 5
