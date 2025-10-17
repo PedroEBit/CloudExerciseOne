@@ -8,7 +8,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/cache
 
       - name: Configurar Python
         uses: actions/setup-python@v5
